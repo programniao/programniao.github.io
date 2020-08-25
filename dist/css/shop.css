@@ -1,0 +1,68 @@
+.sub_shop {
+    width: 1910px;
+    background: url("../img/public/bg.jpg") 1920px 900px;
+    background-size: 1910px 900px;
+    /* 解决子元素margin影响父元素 */
+    overflow: hidden;
+}
+
+.sub_title {
+    font-size: 18px;
+    color: white;
+    margin: 30px 40px;
+}
+
+.sub_content {
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sub_items {
+    width: 300px;
+    height: 400px;
+    outline: 1px solid white;
+    margin-top: 20px;
+}
+
+.item_img a img {
+    width: 300px;
+    height: 180px;
+}
+.item_text {
+    text-overflow: ellipsis;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.item_text a:first-child {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    text-overflow: ellipsis;
+}
+.item_text a:last-child {
+    display: block;
+    font-size: 14px;
+    color: #aaa;
+    text-indent: 2rem;
+    padding: 3px;
+}
+
+.item_sub {
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    margin: 40px auto;
+    background-color: #0984e3;
+
+}
+.item_sub a {
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+

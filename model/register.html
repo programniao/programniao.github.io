@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/css/base.css">
+    <link rel="stylesheet" href="../dist/css/register.css">
+    <link rel="stylesheet" href="../dist/css/media.css">
+</head>
+<body>
+    
+    <div class="reg_content">
+        <div class="reg_nav">
+        <a href="../index.html"><i><</i> <span>返回首页</span></a>
+    </div>
+        <div class="content_from">
+            <ul class="nav_ul">
+            <li class="nav_items item_bg">登录</li>
+            <li class="nav_items">注册</li>
+        </ul>
+        <div class="from_items from_block">
+            <form action="#" method="POST">
+                <label for="username">用户名:</label>
+                <input type="text" placeholder="输入用户名" id="username">
+                <div class="tmp">   </div>
+                <label for="passworld">密码:</label>
+                <input type="text" placeholder="输入密码(不得小于6位大于12位)" id="passworld">
+                <div class="tmp">   </div>
+                <input type="submit" value="登录" id="sub">
+            </form>
+        </div>
+        <div class="from_items">
+            <form action="#" method="POST">
+                <label for="username">用户名:</label>
+                <input type="text" placeholder="输入用户名" value="" id="reg_username" class="inp_text" maxlength="9" minlength="5">
+                <div class="tmp">
+                    
+                </div>
+                <label for="passworld">密码:</label>
+                <input type="text" placeholder="输入密码" value="" id="reg_passworld" class="inp_text" minlength="6" maxlength="12">
+                <div class="tmp">
+
+                </div>
+                <label for="phone_num">手机号:</label>
+                <input type="text" placeholder="输入手机号" value="" id="reg_phone_num" class="inp_text" minlength="11" maxlength="11">
+                <div class="tmp">
+
+                </div>
+                <a href="javascript:;" id="regsub">注册</a>
+                <div class="tmp">
+
+                </div>
+            </form>
+        </div>
+        </div>
+        <div class="gologin">
+            <div class="log">
+                正在跳转
+            </div>
+        </div>
+        
+        
+    </div>
+</body>
+<script src="../dist/js/jquery-1.12.2.min.js"></script>
+<script src="../dist/js/index.js"></script>
+<script src="../dist/js/register.js"></script>
+<script>
+        let nav_list = document.getElementsByClassName("nav_items")
+        let nav_cont = document.getElementsByClassName("from_items")
+
+        tab_class(nav_list,nav_cont,"nav_items","from_items","nav_items item_bg","from_items from_block")
+</script>
+</html>

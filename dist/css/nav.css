@@ -1,0 +1,47 @@
+.nav {
+    width: 1910px;
+    height: 53px;
+    min-width: 1183px;
+}
+.nav-style {
+    background: rgba(27, 26, 26, 0.9);
+}
+
+.nav-bar {
+    width: 920px;
+    height: 53px;
+    line-height: 53px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+    
+}
+.sign {
+    display: flex;
+}
+
+.menu li {
+    width: 90px;
+    height: 53px;
+    text-align: center;
+    user-select: none;
+    margin-left: 35px;
+    margin-right: 35px;
+    transition: background .4s linear;
+}
+
+.menu li:hover {
+    background: rgba(70, 130, 180, .6);
+}
+.active {
+    background: rgba(70, 130, 180, .6);
+}
+
+.sign li {
+    font-size: 17px;
+    margin: 0 10px 0 10px;
+    user-select: none;
+}

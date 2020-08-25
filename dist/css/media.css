@@ -1,0 +1,746 @@
+@media (min-width: 1024px){
+
+} /*>=1024的设备*/
+
+@media (min-width: 1100px) {
+    iframe {
+        width: 1270px;
+    }
+
+    .nav {
+        width: 100%;
+        height: 53px;
+        margin: 0 auto;
+    }
+
+    .subject {
+        width: 1270px;
+        background: url("../img/public/bg.jpg") ;
+        background-size: 1270px 900px;
+    }
+    
+    .subject-four {
+        width: 1270px;
+    }
+
+    .subject-two {
+        width: 1270px;
+        margin-top: 20px;
+    }
+
+    .subject-three {
+        width: 1270px;
+    }
+
+    .footer {
+        width: 1270px;
+    }
+
+
+    /* shop */
+    .sub_shop {
+        width: 1270px;
+    }
+
+    .shop_itemtext {
+        width: 1270px;
+        background-image: url(../img/public/bg.jpg);
+        background-size: 1270px;
+    }
+
+    /* community */
+    .comm_content {
+        width: 1270px;
+        height: 604px;
+        overflow: hidden;
+        background: url('../img/public/bg.jpg');
+        background-size: 1270px;
+    }
+
+    .content_left_nav {
+        width: 240px;
+        height: 604px;
+        background-color: #353b48;
+    }
+    .comm_content .content_right {
+        width: 839px;
+        height: 100%;
+    }
+    .content_right .right_left {
+        width: 839px;
+        height: 100%;
+    }
+    .right_right {
+        width: 278px;
+        height: 100%;
+    }
+    .right_right .btn {
+        width: 200px;
+        height: 38px;
+        margin: 10px 40px;
+        border: none;
+        outline: none;
+        border-radius: 3px;
+    }
+} /*>=1100的设备*/
+@media (min-width: 1280px) {
+    iframe {
+        width: 1270px;
+    }
+
+    .nav {
+        width: 100%;
+        height: 53px;
+        margin: 0 auto;
+    }
+
+    .subject {
+        width: 1270px;
+        background: url("../img/public/bg.jpg") ;
+        background-size: 1270px 900px;
+    }
+    
+    .subject-four {
+        width: 1270px;
+    }
+
+    .subject-two {
+        width: 1270px;
+        margin-top: 20px;
+    }
+
+    .subject-three {
+        width: 1270px;
+    }
+
+    .footer {
+        width: 1270px;
+    }
+
+
+    /* shop */
+    .sub_shop {
+        width: 1270px;
+    }
+
+    .shop_itemtext {
+        width: 1270px;
+        background-image: url(../img/public/bg.jpg);
+        background-size: 1270px;
+    }
+
+    /* community */
+    .comm_content {
+        width: 1270px;
+        height: 604px;
+        overflow: hidden;
+        background: url('../img/public/bg.jpg');
+        background-size: 1270px;
+    }
+
+    .content_left_nav {
+        width: 240px;
+        height: 604px;
+        background-color: #353b48;
+    }
+    .comm_content .content_right {
+        width: 839px;
+        height: 100%;
+    }
+    .content_right .right_left {
+        width: 839px;
+        height: 100%;
+    }
+    .right_right {
+        width: 278px;
+        height: 100%;
+    }
+    .right_right .btn {
+        width: 200px;
+        height: 38px;
+        margin: 10px 40px;
+        border: none;
+        outline: none;
+        border-radius: 3px;
+    }
+} /*>=1280的设备*/
+
+@media (min-width: 1366px) {
+    iframe {
+        width: 1356px;
+    }
+
+    .nav {
+        width: 100%;
+        height: 53px;
+        margin: 0 auto;
+    }
+
+    .subject {
+        width: 1356px;
+        background: url("../img/public/bg.jpg") ;
+        background-size: 1366px 900px;
+    }
+    
+    .subject-four {
+        width: 1356px;
+    }
+
+    .subject-two {
+        width: 1356px;
+        margin-top: 20px;
+    }
+
+    .subject-three {
+        width: 1356px;
+    }
+
+    .footer {
+        width: 1356px;
+    }
+
+
+    /* shop */
+    .sub_shop {
+        width: 1356px;
+    }
+
+    .shop_itemtext {
+        width: 1356px;
+        background-image: url(../img/public/bg.jpg);
+        background-size: 1356px;
+    }
+
+    /* community */
+    .comm_content {
+        width: 1356px;
+        height: 604px;
+        overflow: hidden;
+        background: url('../img/public/bg.jpg');
+        background-size: 1910px;
+    }
+
+    .content_left_nav {
+        width: 240px;
+        height: 604px;
+        background-color: #353b48;
+    }
+    .comm_content .content_right {
+        width: 839px;
+        height: 100%;
+    }
+    .content_right .right_left {
+        width: 839px;
+        height: 100%;
+    }
+    .right_right {
+        width: 278px;
+        height: 100%;
+    }
+    .right_right .btn {
+        width: 200px;
+        height: 38px;
+        margin: 10px 40px;
+        border: none;
+        outline: none;
+        border-radius: 3px;
+    }
+}  
+
+@media (min-width: 1440px) {
+    body{font-size: 25px !important;}
+    
+    .swiper-container {
+        width: 1079px;
+        height: 400px;
+        margin: 0 auto;
+    } 
+    iframe {
+        width: 100%;
+    }
+
+    .nav {
+        width: 100%;
+        height: 53px;
+        margin: 0 auto;
+    }
+
+    .subject {
+        width: 100%;
+        background: url("../img/public/bg.jpg") ;
+        background-size: 100% 900px;
+    }
+    
+    .subject-four {
+        width: 100%;
+    }
+    .sub4-btn {
+        width: 1379px;
+        height: 79px;
+        line-height: 69px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sub4-btn .btn {
+        position: relative;
+        width: 300px;
+        height: 100%;
+        text-align: center;
+        color: #aaa;
+        font-size: 20px;
+        border: 2px solid #2d3436;
+        border-radius: 4px;
+        overflow: hidden;
+        transition: 1s all ease;
+        z-index: 1;
+    }
+
+    .subject-two {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .subject-two .content {
+        width: 1379px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .game-items {
+        width: 199px;
+        height: 300px;
+        margin: 16px;
+        position: relative;
+        transition: all .4s linear;
+    }
+
+    .subject-three {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+        height: 140px;
+        margin: 0 auto;
+        color: #aaa;
+        font-size: 13px;
+    }
+
+
+    /* shop */
+    .sub_shop {
+        width: 100%;
+    }
+
+    .shop_itemtext {
+        width: 100%;
+        background-image: url(../img/public/bg.jpg);
+        background-size: 100%;
+    }
+
+    /* community 新闻*/
+    .comm_content {
+        width: 100%;
+        height: 924px;
+        overflow: hidden;
+        background: url('../img/public/bg.jpg');
+        background-size: 100%;
+    }
+
+    .content_left_nav {
+        width: 240px;
+        height: 924px;
+        background-color: #353b48;
+    }
+    .comm_content .content_right {
+        width: 839px;
+        height: 100%;
+    }
+    .content_right .right_left {
+        width: 1282px;
+        height: 100%;
+    }
+    .right_right {
+        width: 278px;
+        height: 100%;
+    }
+    .right_right .btn {
+        width: 200px;
+        height: 38px;
+        margin: 30px 514px;
+        border: none;
+        outline: none;
+        border-radius: 3px;
+    }
+    .right_right p{
+        width: 278px;
+        height: 30px;
+        margin: 20px 514px;
+    }
+
+    /* about 关于 */
+    .content_about {
+        width: 100%;
+        height: 924px;
+    }
+    .content_about .cont_text {
+        width: 700px;
+        height: 400px;
+        text-align: center;
+        line-height: 400px;
+        margin: 0 auto;
+    }
+    .cont_text h2,span{
+        color: white;
+    }
+    .cont_text h2 {
+        font-size: 50px;
+    }
+    /* register 注册登录 */
+    .reg_nav {
+        width: 100%;
+        height: 40px;
+        font-size: 16px;
+        line-height: 40px;
+        background-color: #2d3436;
+    }
+    .reg_content {
+        width: 100%;
+        height: 100%;
+        background: url('../img/public/bg.jpg');
+        background-size: 100%;
+    }
+} 
+
+
+@media (min-width: 1680px) {
+    .swiper-container {
+        width: 1279px;
+        height: 400px;
+        margin: 0 auto;
+    } 
+    iframe {
+        width: 100%;
+    }
+
+    .nav {
+        width: 100%;
+        height: 53px;
+        margin: 0 auto;
+    }
+
+    .subject {
+        width: 100%;
+        background: url("../img/public/bg.jpg") ;
+        background-size: 100% 900px;
+    }
+    
+    .subject-four {
+        width: 100%;
+    }
+    .sub4-btn {
+        width: 1379px;
+        height: 79px;
+        line-height: 69px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sub4-btn .btn {
+        position: relative;
+        width: 300px;
+        height: 100%;
+        text-align: center;
+        color: #aaa;
+        font-size: 20px;
+        border: 2px solid #2d3436;
+        border-radius: 4px;
+        overflow: hidden;
+        transition: 1s all ease;
+        z-index: 1;
+    }
+
+    .subject-two {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .subject-two .content {
+        width: 1379px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .game-items {
+        width: 199px;
+        height: 300px;
+        margin: 16px;
+        position: relative;
+        transition: all .4s linear;
+    }
+
+    .subject-three {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+        height: 140px;
+        margin: 0 auto;
+        color: #aaa;
+        font-size: 13px;
+    }
+
+
+    /* shop */
+    .sub_shop {
+        width: 100%;
+    }
+
+    .shop_itemtext {
+        width: 100%;
+        background-image: url(../img/public/bg.jpg);
+        background-size: 100%;
+    }
+
+    /* community 新闻*/
+    .comm_content {
+        width: 100%;
+        height: 924px;
+        overflow: hidden;
+        background: url('../img/public/bg.jpg');
+        background-size: 100%;
+    }
+
+    .content_left_nav {
+        width: 240px;
+        height: 924px;
+        background-color: #353b48;
+    }
+    .comm_content .content_right {
+        width: 839px;
+        height: 100%;
+    }
+    .content_right .right_left {
+        width: 1282px;
+        height: 100%;
+    }
+    .right_right {
+        width: 278px;
+        height: 100%;
+    }
+    .right_right .btn {
+        width: 200px;
+        height: 38px;
+        margin: 30px 514px;
+        border: none;
+        outline: none;
+        border-radius: 3px;
+    }
+    .right_right p{
+        width: 278px;
+        height: 30px;
+        margin: 20px 514px;
+    }
+
+    /* about 关于 */
+    .content_about {
+        width: 100%;
+        height: 924px;
+    }
+    .content_about .cont_text {
+        width: 700px;
+        height: 400px;
+        text-align: center;
+        line-height: 400px;
+        margin: 0 auto;
+    }
+    .cont_text h2,span{
+        color: white;
+    }
+    .cont_text h2 {
+        font-size: 50px;
+    }
+    /* register 注册登录 */
+    .reg_nav {
+        width: 100%;
+        height: 40px;
+        font-size: 16px;
+        line-height: 40px;
+        background-color: #2d3436;
+    }
+    .reg_content {
+        width: 100%;
+        height: 100%;
+        background: url('../img/public/bg.jpg');
+        background-size: 100%;
+    }
+} 
+
+@media (min-width: 1820px) {
+    .swiper-container {
+        width: 1379px;
+        height: 400px;
+        margin: 0 auto;
+    } 
+    iframe {
+        width: 100%;
+    }
+
+    .nav {
+        width: 100%;
+        height: 53px;
+        margin: 0 auto;
+    }
+
+    .subject {
+        width: 100%;
+        background: url("../img/public/bg.jpg") ;
+        background-size: 100% 900px;
+    }
+    
+    .subject-four {
+        width: 100%;
+    }
+    .sub4-btn {
+        width: 1379px;
+        height: 79px;
+        line-height: 69px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sub4-btn .btn {
+        position: relative;
+        width: 300px;
+        height: 100%;
+        text-align: center;
+        color: #aaa;
+        font-size: 20px;
+        border: 2px solid #2d3436;
+        border-radius: 4px;
+        overflow: hidden;
+        transition: 1s all ease;
+        z-index: 1;
+    }
+
+    .subject-two {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .subject-two .content {
+        width: 1379px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .game-items {
+        width: 199px;
+        height: 300px;
+        margin: 16px;
+        position: relative;
+        transition: all .4s linear;
+    }
+
+    .subject-three {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+        height: 140px;
+        margin: 0 auto;
+        color: #aaa;
+        font-size: 13px;
+    }
+
+
+    /* shop */
+    .sub_shop {
+        width: 100%;
+    }
+
+    .shop_itemtext {
+        width: 100%;
+        background-image: url(../img/public/bg.jpg);
+        background-size: 100%;
+    }
+
+    /* community 新闻*/
+    .comm_content {
+        width: 100%;
+        height: 924px;
+        overflow: hidden;
+        background: url('../img/public/bg.jpg');
+        background-size: 100%;
+    }
+
+    .content_left_nav {
+        width: 240px;
+        height: 924px;
+        background-color: #353b48;
+    }
+    .comm_content .content_right {
+        width: 839px;
+        height: 100%;
+    }
+    .content_right .right_left {
+        width: 1282px;
+        height: 100%;
+    }
+    .right_right {
+        width: 278px;
+        height: 100%;
+    }
+    .right_right .btn {
+        width: 200px;
+        height: 38px;
+        margin: 30px 514px;
+        border: none;
+        outline: none;
+        border-radius: 3px;
+    }
+    .right_right p{
+        width: 278px;
+        height: 30px;
+        margin: 20px 514px;
+    }
+
+    /* about 关于 */
+    .content_about {
+        width: 100%;
+        height: 924px;
+    }
+    .content_about .cont_text {
+        width: 700px;
+        height: 400px;
+        text-align: center;
+        line-height: 400px;
+        margin: 0 auto;
+    }
+    .cont_text h2,span{
+        color: white;
+    }
+    .cont_text h2 {
+        font-size: 50px;
+    }
+    /* register 注册登录 */
+    .reg_nav {
+        width: 100%;
+        height: 40px;
+        font-size: 16px;
+        line-height: 40px;
+        background-color: #2d3436;
+    }
+    .reg_content {
+        width: 100%;
+        height: 100%;
+        background: url('../img/public/bg.jpg');
+        background-size: 100%;
+    }
+}
+@media (min-width: 1920px) {
+    body{font-size: 33px;}
+} 

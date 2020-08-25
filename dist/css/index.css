@@ -1,0 +1,269 @@
+
+
+.subject {
+    width: 1910px;
+    background: url("../img/public/bg.jpg") 1920px 900px;
+    background-size: 1910px 900px;
+    margin: 0 auto;
+}
+
+.subject-four {
+    width: 1910px;
+    margin: 120px 0 105px 0;
+}
+.sub4-btn {
+    width: 920px;
+    height: 69px;
+    line-height: 69px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sub4-btn .btn {
+    position: relative;
+    width: 200px;
+    height: 100%;
+    text-align: center;
+    color: #aaa;
+    font-size: 20px;
+    border: 2px solid #2d3436;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: 1s all ease;
+    z-index: 1;
+}
+.sub4-btn .btn::before {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: rotate(-50%,-50%);
+    content: "";
+    background: #2d3436;
+    transition: all .6s ease;
+    z-index: -1;
+}
+.sub4-btn .btn1::before {
+    width: 0%;
+    height: 100%;
+    
+}
+.sub4-btn .btn1:hover::before {
+    width: 100%;
+}
+.sub4-btn .btn1:hover {
+    color: white;
+    border-color: white;
+}
+.sub4-btn .btn2::before {
+    width: 0%;
+    height: 100%;
+    
+}
+.sub4-btn .btn2:hover::before {
+    width: 100%;
+}
+.sub4-btn .btn2:hover {
+    color: white;
+    border-color: white;
+}
+.sub4-btn .btn3::before {
+    width: 0%;
+    height: 100%;
+    
+}
+.sub4-btn .btn3:hover::before {
+    width: 100%;
+}
+.sub4-btn .btn3:hover {
+    color: white;
+    border-color: white;
+}
+.sub4-btn .btn4::before {
+    width: 0%;
+    height: 100%;
+    
+}
+.sub4-btn .btn4:hover::before {
+    width: 100%;
+}
+.sub4-btn .btn4:hover {
+    color: white;
+    border-color: white;
+}
+
+.subject-two {
+    width: 1910px;
+    margin-top: 15px;
+}
+.subject-two .content {
+    width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.game-items {
+    width: 199px;
+    height: 300px;
+    margin-top: 10px;
+    position: relative;
+    transition: all .4s linear;
+}
+.game-items:hover{
+    box-shadow: 0 0 10px -2px white;
+}
+
+.game-items .game-img  img{
+    width: 100%;
+    height: 100%;
+}
+.game-items .game-name {
+    width: 100%;
+    height: 32px;
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    background: #5c7e10;
+    font-size: 13px;
+}
+
+.subject-three {
+    width: 1910px;
+    margin-top: 20px;
+
+}
+.subject-three .subject-center {
+    width: 920px;
+    height: 527px;
+    background: linear-gradient( to bottom, rgba(42,71,94,1.0) 5%, rgba(42,71,94,0.0) 70%);
+    margin: 0 auto;
+    box-shadow: 0 0 9px -3px white;
+}
+.subject-three .subject-nav {
+    margin-bottom: 8px;
+    padding: 5px 5px;
+}
+.subject-three .subject-navbar {
+    display: flex;
+    width: 400px;
+    background: rgba(27, 26, 26, 0.9);
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    user-select: none;
+}
+.subject-navbar .navbar-three {
+    line-height: 24px;
+    padding: 5px 13px;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    background: rgba(27, 26, 26, 0.6);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.subject-content {
+    display: none;
+}
+.public_block{
+    display: block;
+}
+.subject-content .content-three {
+    width: 905px;
+    height: 10px;
+    display: flex;
+    margin-left: 5px;
+}
+.content-three .cont-left {
+    width: 905px;
+    display: flex;
+    flex-direction: column;
+}
+.cont-left .left-item {
+    width: 100%;
+    font-size: 17px;
+    padding: 3px 5px;
+    display: flex;
+    transition: all .4s linear;
+    position: relative;
+}
+.left-item a {
+    margin-right: 8px;
+}
+.left-item .left-content span {
+    color: #aaa;
+    font-size: 15px;
+    user-select: none;
+}
+.left-item .item-money {
+    position: absolute;
+    right: 26px;
+    top: 26px;
+    color: white;
+}
+
+.cont-left .left-item:hover ,
+.cont-left .left-item:hover .left-content span{
+    color: white;
+    background-color: rgb(93, 109, 138);
+}
+
+
+
+.footer {
+    width: 1910px;
+    height: 100px;
+    background-color: black;
+    margin-top: 10px;
+}
+.footer-content {
+    width: 920px;
+    height: 100%;
+    margin: 0 auto;
+    color: #aaa;
+    font-size: 13px;
+}
+.footer-content span {
+    margin-top: 10px;
+}
+
+
+.content-three .cont-right {
+    width: 305px;
+}
+
+.subject-navbar .active {
+        background-color: rgb(42, 71, 94);
+}
+
+.dist {
+    width: 60px;
+    height: 90px;
+    position: fixed;
+    top: 200px;
+    left: 50px;
+}
+
+.dist ul{
+    list-style: none;
+    color: #aaa;
+    text-align: center;
+    line-height: 30px;
+}
+
+.dist ul li {
+    background-color: #636e72;
+    cursor: pointer;
+    transition:  .3s linear;
+    transition-property: color ,background-color;
+}
+
+.dist ul li:hover {
+    color: black;
+    background-color: #b2bec3;
+}
+
+.dist_items.a_stairs {
+    background-color: #b2bec3;
+}

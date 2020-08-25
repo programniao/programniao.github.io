@@ -1,0 +1,138 @@
+.comm_content {
+    width: 1910px;
+    height: 1027px;
+    overflow: hidden;
+    background: url('../img/public/bg.jpg');
+    background-size: 1910px;
+    display: flex;
+}
+
+.content_left_nav {
+    width: 340px;
+    height: 1027px;
+    background-color: #08193d;
+    overflow: hidden;
+}
+
+.content_left_nav .cont_input {
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+.cont_input input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.left_nav_items .nav_items{
+    list-style: none;
+    width: 100%;
+    height: 49px;
+    display: flex;
+    align-items: stretch;
+    margin-top: 5px;
+    text-overflow: ellipsis;
+}
+
+.left_nav_items .nav_items:first-child {
+    margin-top: 0;
+}
+
+.left_nav_items .nav_items:nth-child(2),
+.left_nav_items .nav_items:nth-child(3) {
+    line-height: 49px;
+}
+
+.nav_items img {
+    width: 87px;
+    height: 49px;
+    margin-right: 2px;
+}
+.nav_items span {
+    list-style: none;
+    font-size: 15px;
+    color: #aaaaaa;
+    user-select: none;
+}
+
+.left_nav_items .highlight {
+    background-color: #636e72;
+}
+.comm_content .content_right .left_block {
+    display: block;
+}
+
+.comm_content .content_right {
+    width: 1570px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.content_right .right_left {
+    width: 1192px;
+    height: 100%;
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.right_left ul {
+    margin-left: 10px;
+}
+.right_left li {
+    list-style: none;
+    width: 100%;
+    height: 170px;
+    box-shadow:  0 0 10px 6px black;
+    margin: 24px 0px;
+}
+.left_items span{
+    font-size: 13px;
+    color: #aaaaaa;
+    margin-bottom: 20px;
+    
+}
+.left_items h2{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+.left_items p{
+    font-size: 15px;
+    color: #636e72;
+}
+
+.right_right {
+    width: 378px;
+    height: 1027px;
+    
+}
+
+.right_right .btn {
+    width: 200px;
+    height: 38px;
+    margin: 10px 40px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    
+}
+.right_right .btn a {
+    font-size: 16px;
+    color: #b2bec3;
+}
+
+.right_right p {
+    font-size: 18px;
+    margin: 20px 39px;
+    color: #b2bec3;
+}
+
+
